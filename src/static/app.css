@@ -78,23 +78,3 @@ body {
     width: 28px;
     height: 28px;
 }
-
-@media screen and (max-width: 500px) {
-    .home {
-        flex-direction: column;
-    }
-    .home>div {
-        width: 100%;
-    }
-    .home>div:first-of-type {
-        margin-bottom: 30px;
-    }
-    .project {
-        flex-direction: column;
-    }
-    .project>.header {
-        margin-bottom: 10px;
-    }
-}
-
-;

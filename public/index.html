@@ -23,6 +23,24 @@
             color: white;
             font-size: 20px;
         }
+        
+        @media screen and (max-width: 500px) {
+            .home {
+                flex-direction: column;
+            }
+            .home>div {
+                width: 100%;
+            }
+            .home>div:first-of-type {
+                margin-bottom: 30px;
+            }
+            .project {
+                flex-direction: column;
+            }
+            .project>.header {
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 
