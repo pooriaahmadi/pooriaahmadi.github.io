@@ -1,0 +1,11 @@
+.right {
+    width: 55%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: var(--menu);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

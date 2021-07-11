@@ -1,0 +1,29 @@
+.post {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid var(--post-border);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.post:hover {
+    border: 1px solid var(--post-border-hover);
+    transition: 0.5s;
+}
+
+.post>.header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.header>h6:first-of-type {
+    margin-right: 10px;
+}
+
+.post>h1 {
+    margin-bottom: 6px;
+}

@@ -1,0 +1,61 @@
+.project {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid var(--post-border);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.project:hover {
+    border: 1px solid var(--post-border-hover);
+    transition: 0.5s;
+}
+
+.project>.header {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.project>.header>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.project>.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.project>.content>h1 {
+    margin-bottom: 10px;
+}
+
+.project>.content>p {
+    margin-bottom: 5px;
+}
+
+.link {
+    display: flex;
+}
+
+.link>svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--text);
+    margin-right: 5px;
+}
+
+.link>a {
+    text-decoration: none;
+    color: var(--description-a);
+}
+
+.link>a:hover {
+    border-bottom: 2px solid var(--description-a);
+    transition: 0.5s;
+}

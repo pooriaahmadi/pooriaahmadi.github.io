@@ -1,0 +1,79 @@
+:root {
+    --bio-text-shadow: red;
+    --description-a: rgb(47, 34, 228);
+    --description-svg: black;
+    --description-svg-hover: #f02626;
+    --bg: white;
+    --text: black;
+    --mode-toggle: rgb(0, 0, 0);
+    --profile-shadow: rgba(100, 100, 111, 0.3);
+    --post-border: black;
+    --post-border-hover: rgb(231, 43, 43);
+    --menu: rgb(240, 240, 240);
+    --time-color: rgb(100, 100, 100);
+    --description-color: rgb(50, 50, 50);
+}
+
+[theme="dark"] {
+    --bio-text-shadow: red;
+    --description-a: #62daff;
+    --description-svg: white;
+    --description-svg-hover: #1c9ec5;
+    --bg: #0b0411;
+    --text: white;
+    --mode-toggle: rgb(236, 236, 236);
+    --profile-shadow: rgba(200, 200, 200, 0.2);
+    --post-border: white;
+    --post-border-hover: rgb(221, 74, 74);
+    --menu: #190c25;
+    --menu-item-hover: #261338;
+    --time-color: rgb(150, 150, 150);
+    --description-color: rgb(200, 200, 200);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--text);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--bg);
+    padding: 40px 0;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mode-toggle {
+    fill: var(--mode-toggle);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    stroke-width: 0;
+}
+
+.back {
+    fill: var(--mode-toggle);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    stroke-width: 0;
+}
+
+.back>svg {
+    width: 28px;
+    height: 28px;
+}

@@ -1,0 +1,35 @@
+.menu>div {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.menu>div:first-of-type {
+    border-radius: 5px 0 0 5px;
+}
+
+
+/* 
+.menu>div:last-of-type {
+    border-radius: 0 5px 5px 0;
+} */
+
+.menu>div:hover {
+    background-color: var(--menu-item-hover);
+    transition: 0.5s;
+}
+
+.menu>div.active {
+    background-color: var(--menu-item-hover);
+}
+
+.menu>div.active>div {
+    width: 10px;
+    height: 10px;
+    background-color: var(--menu-item-hover);
+    position: absolute;
+    transform: rotate(45deg);
+    top: calc(100% - 5px);
+    left: calc(50% - 5px);
+}

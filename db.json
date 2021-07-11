@@ -1,0 +1,38 @@
+{
+    "posts": [{
+            "id": 1,
+            "title": "A post",
+            "uniqueName": "a-post",
+            "createdDate": 1625929082687,
+            "readTime": 10,
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "content": "<h1>asd</h1>"
+        },
+        {
+            "id": 2,
+            "title": "A post 2",
+            "uniqueName": "a-post-2",
+            "createdDate": 1625929082687,
+            "readTime": 10,
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec risus ac sem consectetur sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris eros nulla, tincidunt eget enim eget, venenatis vehicula purus. Duis ultrices dui et enim suscipit, a sodales eros lacinia"
+        }
+    ],
+    "projects": [{
+            "id": 1,
+            "title": "Pastep",
+            "uniqueName": "pastep",
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "https://cdn.discordapp.com/icons/806087098259996693/1a51358664bf62fc31890363437e88de.png?size=256",
+            "url": "https://pastep.com"
+        },
+        {
+            "id": 2,
+            "title": "ASD",
+            "uniqueName": "asd",
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "https://cdn.discordapp.com/icons/806087098259996693/1a51358664bf62fc31890363437e88de.png?size=256",
+            "url": "https://pastep.com"
+        }
+    ]
+}

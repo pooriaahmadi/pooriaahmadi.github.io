@@ -1,0 +1,32 @@
+.post-view {
+    padding-top: 50px;
+    width: 55%;
+}
+
+.post-view>.header>.time {
+    display: flex;
+}
+
+.header>.time>h6 {
+    margin-right: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: var(--time-color);
+}
+
+.header>.title>h1 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header>.title>p {
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--description-color);
+    margin-bottom: 25px;
+}
+
+.post-view>.content {
+    font-size: 20px;
+}
