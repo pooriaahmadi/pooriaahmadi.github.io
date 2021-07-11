@@ -10,6 +10,7 @@
     --post-border: black;
     --post-border-hover: rgb(231, 43, 43);
     --menu: rgb(240, 240, 240);
+    --menu-item-hover: rgb(230, 230, 230);
     --time-color: rgb(100, 100, 100);
     --description-color: rgb(50, 50, 50);
 }
