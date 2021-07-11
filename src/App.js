@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import Mode from "./components/Mode";
 import PostView from "./pages/PostView";
-const endPoint = "http://localhost:80/";
+const endPoint = "https://pooriaahmadi.github.io/static-database/";
 function App() {
 	// Theme State
 	const [theme, setTheme] = useState(localStorage.getItem("theme"));
