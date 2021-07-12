@@ -56,21 +56,21 @@ function App() {
 	};
 
 	const getPosts = async () => {
-		let response = await fetch(endPoint + "db.json/");
+		let response = await fetch(endPoint + "db.json");
 		response = await response.json();
 		// return response;
 		return response.posts;
 	};
 
 	const getProjects = async () => {
-		let response = await fetch(endPoint + "db.json/");
+		let response = await fetch(endPoint + "db.json");
 		response = await response.json();
 		// return response;
 		return response.projects;
 	};
 
 	const getLanguages = async () => {
-		let response = await fetch(endPoint + "db.json/");
+		let response = await fetch(endPoint + "db.json");
 		response = await response.json();
 		// return response;
 		return response.languages;
