@@ -34,5 +34,13 @@
             "image": "https://cdn.discordapp.com/icons/806087098259996693/1a51358664bf62fc31890363437e88de.png?size=256",
             "url": "https://pastep.com"
         }
+    ],
+    "languages": [{
+            "id": 1,
+            "title": "Spanish",
+            "rate": "20%"
+        },
+        { "id": 2, "title": "English", "rate": "60%" },
+        { "id": 3, "title": "Persian", "rate": "99%" }
     ]
 }

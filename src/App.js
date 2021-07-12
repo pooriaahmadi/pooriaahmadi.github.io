@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Mode from "./components/Mode";
 import PostView from "./pages/PostView";
 const endPoint = "https://pooriaahmadi.github.io/static-database/";
+// const endPoint = "http://localhost:5000/";
 function App() {
 	// Theme State
 	const [theme, setTheme] = useState(localStorage.getItem("theme"));
@@ -19,6 +20,9 @@ function App() {
 
 	// Projects state
 	const [projects, setProjects] = useState([]);
+
+	// Languages state
+	const [languages, setLanguages] = useState([]);
 
 	// Menu State
 	const [menu, setMenu] = useState("posts");
@@ -52,15 +56,24 @@ function App() {
 	};
 
 	const getPosts = async () => {
-		let response = await fetch(endPoint + "db.json");
+		let response = await fetch(endPoint + "db.json/");
 		response = await response.json();
+		// return response;
 		return response.posts;
 	};
 
 	const getProjects = async () => {
-		let response = await fetch(endPoint + "db.json");
+		let response = await fetch(endPoint + "db.json/");
 		response = await response.json();
+		// return response;
 		return response.projects;
+	};
+
+	const getLanguages = async () => {
+		let response = await fetch(endPoint + "db.json/");
+		response = await response.json();
+		// return response;
+		return response.languages;
 	};
 
 	useEffect(() => {
@@ -72,6 +85,7 @@ function App() {
 		const setProperties = async () => {
 			setPosts(await getPosts());
 			setProjects(await getProjects());
+			setLanguages(await getLanguages());
 		};
 		setProperties();
 	}, []);
@@ -88,6 +102,7 @@ function App() {
 					<Route path="/">
 						<Home
 							projects={projects}
+							languages={languages}
 							posts={posts}
 							menu={menu}
 							menuItemClick={menuItemClick}

@@ -13,6 +13,7 @@
     --menu-item-hover: rgb(230, 230, 230);
     --time-color: rgb(100, 100, 100);
     --description-color: rgb(50, 50, 50);
+    --progress-bar-background: rgb(220, 220, 200);
 }
 
 [theme="dark"] {
@@ -25,11 +26,12 @@
     --mode-toggle: rgb(236, 236, 236);
     --profile-shadow: rgba(200, 200, 200, 0.2);
     --post-border: white;
-    --post-border-hover: rgb(221, 74, 74);
+    --post-border-hover: #1c9ec5;
     --menu: #190c25;
     --menu-item-hover: #261338;
     --time-color: rgb(150, 150, 150);
     --description-color: rgb(200, 200, 200);
+    --progress-bar-background: #190c25;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");

@@ -1,7 +1,7 @@
 import "../static/home.css";
 import Bio from "../components/Bio";
 import Menu from "../components/Menu";
-const Home = ({ posts, menu, menuItemClick, projects }) => {
+const Home = ({ posts, menu, menuItemClick, projects, languages }) => {
 	return (
 		<div className="home">
 			<Bio />
@@ -10,6 +10,7 @@ const Home = ({ posts, menu, menuItemClick, projects }) => {
 				menuItemClick={menuItemClick}
 				posts={posts}
 				projects={projects}
+				languages={languages}
 			/>
 		</div>
 	);
